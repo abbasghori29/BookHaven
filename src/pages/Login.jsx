@@ -93,7 +93,7 @@ function Login({ setUser }) {
                     type="text"
                     className="form-control"
                     id="username"
-                    placeholder="Enter any username (e.g., 'Alice')"
+                    placeholder="Enter any username (e.g., 'Test')"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     required
